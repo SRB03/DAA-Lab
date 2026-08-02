@@ -7,6 +7,4 @@
 * **Group:** 2
 
 ### General Information
-This repository will contain all my solutions to the programs for laboratory assignments of the 3rd-semester DAA coursework. The exercises primarily focus on:
-
-
+This repository will contain all my solutions to the programs for laboratory assignments of the 3rd-semester DAA coursework.
