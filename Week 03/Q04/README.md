@@ -18,7 +18,10 @@ This file contains a C implementation of **Strassen's Algorithm** for matrix mul
 Standard matrix multiplication takes 8 multiplications for a 2x2 split. Volker Strassen discovered a way to do this using only 7 multiplications by introducing cleverly designed algebraic combinations.
 
 Given matrices $A$ and $B$, split them into 4 quadrants:
-$$ A = \begin{bmatrix} A_{11} & A_{12} \\ A_{21} & A_{22} \end{bmatrix}, B = \begin{bmatrix} B_{11} & B_{12} \\ B_{21} & B_{22} \end{bmatrix} $$
+
+$$ 
+A = \begin{bmatrix} A_{11} & A_{12} \\ A_{21} & A_{22} \end{bmatrix}, B = \begin{bmatrix} B_{11} & B_{12} \\ B_{21} & B_{22} \end{bmatrix} 
+$$
 
 **The 7 Strassen Products (M1 to M7):**
 * $M_1 = (A_{11} + A_{22}) \cdot (B_{11} + B_{22})$
